@@ -1,0 +1,27 @@
+const allSong = [
+  { id: 0, title: 'Midnight Rain', artist: 'Taylor Swift', isFavorite: true, },
+  { id: 1, title: 'Still Into You', artist: 'Dylan Brady', isFavorite: false, },
+  { id: 2, title: 'Belong With You', artist: 'Taylor Swift', isFavorite: false, },
+  { id: 3, title: 'August', artist: 'Taylor Swift', isFavorite: true, },
+  { id: 4, title: 'Red', artist: 'Taylor Swift', isFavorite: true, },
+  { id: 5, title: 'Love Story', artist: 'Taylor Swift', isFavorite: false, },
+  { id: 6, title: 'As It Was', artist: 'Harry Styles', isFavorite: false, },
+  { id: 7, title: 'Cardigan', artist: 'Taylor Swift', isFavorite: true, },
+  { id: 8, title: 'Paradise', artist: 'NiziU', isFavorite: false, },
+  { id: 9, title: 'I Can See You', artist: 'Taylor Swift', isFavorite: true, },
+  { id: 10, title: 'Anti-Hero', artist: 'Taylor Swift', isFavorite: true, },
+  { id: 11, title: 'Haunted', artist: 'Taylor Swift', isFavorite: true, },
+  { id: 12, title: 'All Too Well', artist: 'Taylor Swift', isFavorite: true, },
+  { id: 13, title: 'Nothing new', artist: 'Taylor Swift', isFavorite: true, },
+  { id: 14, title: 'Love Scenario', artist: 'Ikon', isFavorite: false, },
+  { id: 15, title: 'Invisible String', artist: 'Taylor Swift', isFavorite: true, },
+  { id: 16, title: 'Rhythm Ta', artist: 'Ikon', isFavorite: false, },
+  { id: 17, title: 'Enchanted', artist: 'Taylor Swift', isFavorite: true, },
+  { id: 18, title: 'Modern Loneliness', artist: 'Lauv', isFavorite: false, },
+  { id: 19, title: 'Ghost', artist: 'Skinnyfabs', isFavorite: false, },
+  { id: 20, title: 'Tak Segampang Itu', artist: 'Anggi Marito', isFavorite: false, },
+  { id: 21, title: 'Grace Note', artist: 'Aimer', isFavorite: false, },
+  { id: 22, title: 'Lover', artist: 'Taylor Swift', isFavorite: true, },
+];
+
+export { allSong };

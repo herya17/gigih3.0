@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@800&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Figtree&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;800&display=swap');
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comfortaa', cursive;
+  background-color: #111111;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+hr {
+  border: 1px solid #13ae49;
+}
+
+header {
+  padding: 10px 15px;
+  color: #ffffff;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 800;
+}
+
+.heylyn-app__logo {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  font-weight: 400 !important;
+}
+
+nav li {
+  float: left;
+  font-size: 11px;
+  margin-right: 20px;
+}
+
+nav a {
+  padding: 13px 0;
+  color: #7e7e7e;
+  text-decoration: none;
+}
+
+.active {
+  color: #ffffff;
+}
+
+main {
+  padding: 35px 15px;
+}
+
+.heylyn-app__list-song {
+  padding-bottom: 35px;
+}
+
+.heylyn-app__list-song li {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr 1fr;
+  background-color: #2a2a2a;
+  color: #ffffff;
+  /* padding: 10px 10px 6px 10px; */
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.heylyn-app__img-song img {
+  max-width: 56px;
+  min-height: 100%;
+  object-position: center;
+  object-fit: cover;
+  border-radius: 8px 0 0 8px;
+}
+
+.heylyn-app__list-title-song {
+  padding: 13px 12px !important;
+}
+
+.heylyn-app__title-song h3, p {
+  margin: 0;
+}
+
+.heylyn-app__title-song h3 {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.heylyn-app__title-song p {
+  font-size: 10px;
+  margin-top: 5px;
+  color: #a7a7a7;
+}
+
+.heylyn-app__list-action-btn {
+  padding: 12px;
+}
+
+.heylyn-app__list-song button {
+  background-color: transparent;
+  border: none;
+  color: #a7a7a7;
+  padding: 10px;
+}
+
+.btn-favorite {
+  color: #13ae49;
+}
+
+.heylyn-app__list-song span {
+  font-size: 25px;
+  margin-top: 3px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.heylyn-app__played {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr 1fr;
+  background-color: #0e0e0e;
+  padding: 8px 15px 5px 15px;
+  border-top: 2px solid #13ae49;
+}
+
+.heylyn-app__title-song {
+  padding: 8px 12px;
+}
+
+.heylyn-app__played img {
+  width: 50px;
+  object-position: center;
+  object-fit: cover;
+}
+
+.heylyn-app__played button {
+  background-color: transparent;
+  border: none;
+  color: #bdbdbd;
+}
+
+.heylyn-app__played span {
+  font-size: 30px;
+}
+
+.play {
+  font-size: 45px !important;
+}
